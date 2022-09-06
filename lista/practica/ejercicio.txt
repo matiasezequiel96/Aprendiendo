@@ -4,7 +4,7 @@ frutas = ["banana", "naranja", "frutilla"]
     3_ Insertar una nueva fruta en la posicion 4
     5_ copiar la lista y agregar a esa lista 3 frutas, y mostrar ambas listas
     6_ eleminar la ultima y 3 fruta de la lista frutas
-    7_ Agregar a la lista frutas este array -> [12, 54, 54, 12]
+    7_ Agregar a la lista frutas este array -> [12, 54, 541, 2]
     8_ mostrar la lista del comienzo al final
 
 numeros = [12, 32, 43, 54, 65]
