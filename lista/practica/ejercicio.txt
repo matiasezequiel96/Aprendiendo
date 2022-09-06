@@ -1,0 +1,15 @@
+frutas = ["banana", "naranja", "frutilla"]
+    1_ Agregar dos frutas a esa lista frutas
+    2_ ¿En que posicion se encuentra la fruta naranja?
+    3_ Insertar una nueva fruta en la posicion 4
+    5_ copiar la lista y agregar a esa lista 3 frutas, y mostrar ambas listas
+    6_ eleminar la ultima y 3 fruta de la lista frutas
+    7_ Agregar a la lista frutas este array -> [12, 54, 54, 12]
+    8_ mostrar la lista del comienzo al final
+
+numeros = [12, 32, 43, 54, 65]
+    1_ ordenar de mayor a menor 
+    2_ mostrar cuantos elementos hay en la lista
+
+Extra: 
+    explicar en cada ejercicio con tus palabras para que sirve cada funcion
