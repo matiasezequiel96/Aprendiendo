@@ -1,8 +1,3 @@
-
-
-from ctypes.wintypes import HLOCAL
-
-
 datos_personas = [["Manuel Juarez", 19823451, "Liverpool"], ["Silvana Paredes", 22709128, "Buenos Aires"], 
 ["Rosa Ortiz", 15123978, "Glasgow"], ["Luciana Hernandez", 38981374, "Lisboa"]] 
 
