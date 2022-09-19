@@ -26,7 +26,7 @@ def ciudad_cantidad():
     for x in lugares:
         if destino_usuarios == x[0]:
             contador += 1
-    print("A ", destino_usuarios, "viajan", contador, "personas.")
+    return destino_usuarios, contador
 
 def dni_pais():
     dni_usuarios = int(input("Hola escriba su dni, por favor: "))
@@ -55,11 +55,12 @@ def saludo():
         [6] Dado un país, mostrar cuántos pasajeros viajan a ese país.
         [7] Salir
     """)
+    eleccion = input("Elija la opcion que desee: ") 
+    return eleccion
+
 
 while True:
-    saludo()
-    
-    eleccion = input("Elija la opcion que desee: ") 
+    eleccion = saludo()
 
     if eleccion == "1":
         agregar_personas(datos_personas)
@@ -71,7 +72,8 @@ while True:
         vuelo_dni()
 
     elif eleccion == "4":
-        ciudad_cantidad()
+        destino, count = ciudad_cantidad()
+        print("A ", destino, "viajan", count, "personas.")
 
     elif eleccion == "5":
         dni_pais()
