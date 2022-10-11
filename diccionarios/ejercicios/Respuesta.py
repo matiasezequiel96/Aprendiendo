@@ -1,8 +1,16 @@
-moneda = {'Euro':'€', 'Dolar':'$', 'Yen':'¥'}
+# moneda = {'Euro':'€', 'Dolar':'$', 'Yen':'¥'}
+# print()
+# while True:
+#     eleccion = input("Escriba su divisa deseada: ")
+#     print("Esta es su moneda: ", moneda[eleccion])
+#     if eleccion == "Salir":
+#         break
 
-for x in moneda.items():
-    eleccion = input("Escriba su divisa deseada: ")
-    if eleccion == x:
-        print("Esta es su moneda: ", y)
-    else:
-        print("No esta")
+#The try block will generate a NameError, because x is not defined:
+moneda = {'Euro':'€', 'Dolar':'$', 'Yen':'¥'}
+try:
+  eleccion = input("Escriba su divisa deseada: ")
+  print("Esta es su moneda: ", moneda[eleccion])
+
+except KeyError:
+  print("Esa moneda no existe")
