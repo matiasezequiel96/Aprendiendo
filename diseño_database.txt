@@ -30,6 +30,8 @@ maquina:
 ->id -> 1
 ->codigo -> 6
 
+
+foring key ----{{{]]
 produccion
 ->id ->1
 ->fecha -> 22/05/2023
