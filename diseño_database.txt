@@ -1,0 +1,41 @@
+materiales:
+-> id -> 10
+-> nombre -> Polipropileno Homopolimero
+-> codigo -> SMD6200
+-> tipo -> Inyectado
+-> marca -> Petrocuyo
+
+proporcion:
+->id -> 1
+->id_materia -> 10
+->pintura -> Ninguno
+->esterato -> False
+->cantidad (tacho de 1L)
+
+
+piezas:
+->id -> 2
+->nombre -> Tuerca A
+->color -> Transparante
+->id_proporcion -> 1
+->matriz -> 245
+
+empleado:
+->id -> 1
+->nombre -> Jorge
+->numero_empleado -> 13
+->cargo -> Ayudante de Mantenimiento
+
+maquina:
+->id -> 1
+->codigo -> 6
+
+produccion
+->id ->1
+->fecha -> 22/05/2023
+->id_empleado -> 1
+->cantidad -> 600
+->id_pieza -> 2
+->id_maquina -> 2
+->colada -> 0.5 (bolsas)
+
